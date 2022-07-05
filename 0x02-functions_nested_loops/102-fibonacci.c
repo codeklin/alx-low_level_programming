@@ -20,3 +20,5 @@ printf(", %lu", aft);
 aft += bef;
 bef = aft - bef;
 }
+printf("\n");
+return (0);
