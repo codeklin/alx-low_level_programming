@@ -55,17 +55,14 @@ printf("%c", ch);
 i++;
 }
 }
-
 /**
 * print_buffer - prints a buffer
 * @b: string
 * @size: size of buffer
 */
-
 void print_buffer(char *b, int size)
 {
 int start, end;
-
 if (size > 0)
 {
 for (start = 0; start < size; start += 10)
@@ -77,6 +74,5 @@ printASCII(b, start, end);
 printf("\n");
 }
 } else
-
 printf("\n");
 }
