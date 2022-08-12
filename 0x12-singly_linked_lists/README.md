@@ -1,1 +1,1 @@
-My task on C - Singly linked lists lessons
+Singly linked list task solution
